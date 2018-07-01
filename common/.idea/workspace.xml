@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="846d7300-6a3f-4065-892f-c887963d09be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lilacseeking/common/Controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lilacseeking/common/Controller/TestController.java" afterDir="false" />
-    </list>
+    <list default="true" id="846d7300-6a3f-4065-892f-c887963d09be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +95,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-21" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -246,16 +243,15 @@
       <option name="presentableId" value="Default" />
       <updated>1530427771418</updated>
       <workItem from="1530427774827" duration="1064000" />
-      <workItem from="1530428874326" duration="3329000" />
+      <workItem from="1530428874326" duration="3617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4393000" />
+    <option name="totallyTimeSpent" value="4681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
