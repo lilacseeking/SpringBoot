@@ -9,4 +9,8 @@ public class TestController {
     public String example() {
         return "aaa";
     }
+    @RequestMapping(value = "exam2")
+    public String example2(){
+        return "000";
+    }
 }
