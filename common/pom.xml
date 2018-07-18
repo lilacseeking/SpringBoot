@@ -28,17 +28,45 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.0.3.RELEASE</version>
         </dependency>
+        <!-- hibernate核心包 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.3.1.Final</version>
+        </dependency>
+
         <!--&lt;!&ndash; SpringBoot场景启动器，帮我们导入了redis模块正常运行时需要的相关依赖，版本由父项目进行仲裁&ndash;&gt;-->
         <!--<dependency>-->
             <!--<groupId>org.springframework.boot</groupId>-->
             <!--<artifactId>spring-boot-starter-redis</artifactId>-->
             <!--<version>1.4.7.RELEASE</version>-->
         <!--</dependency>-->
-        <!--&lt;!&ndash; SpringBoot场景启动器，帮我们导入了jpa模块正常运行时需要的相关依赖，版本由父项目进行仲裁 &ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
-            <!--<version>2.0.3.RELEASE</version>-->
-        <!--</dependency>-->
+        <!-- SpringBoot场景启动器，帮我们导入了jpa模块正常运行时需要的相关依赖，版本由父项目进行仲裁 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
+        <!--hibernate实体类支持 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>5.3.1.Final</version>
+        </dependency>
+
+        <!-- 添加mysql驱动包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
+        <!-- lombok插件支持 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.0</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 </project>
